@@ -1,3 +1,5 @@
+use core::panic;
+
 fn main() {
-    println!("Hello, world!");
+    panic!("why are you running this?")
 }
