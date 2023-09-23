@@ -1,7 +1,7 @@
 ﻿# RemCraftUpdater
 A program that downloads the newest RemCraft version for the specified minecraft version
 # Downloads
-**_ Downloads are a working progress_**
+**_ Downloads are a working progress _**
 **The letters in version number stand for the following A=Alpha B=Beta R=Rolling S=Stable**
 **Auto Clickers, Clickthrough signs, and Auto Craft may get you banned on some servers. Use at your own risk I do not claim any responsibility for bans that occur while using the client.**
 ## Minecraft 1.20.1
