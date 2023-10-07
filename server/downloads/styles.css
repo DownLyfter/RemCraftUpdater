@@ -7,9 +7,67 @@ h1 {
 	text-align:center;
 }
 h2 {
+	text-align:center;
+	color: violet;
+	font-size:25px;
+}
+
+h3{
 	color: violet;
 	font-size:25px;
 }
 p {
 	color:DarkOrchid;
+}
+
+a {
+	font-size:20px;
+	text-align:center;
+	color:DarkOrchid;
+  	padding: 10px;
+}
+th {
+	font-size:15px;
+	text-align:center;
+	color:violet;
+}
+td {
+	font-size:15px;
+	text-align:center;
+	color:DarkOrchid;
+}
+{
+box-sizing: border-box;
+}
+table, th, td {
+	border: 3px solid violet;
+	border-collapse: collapse;
+}
+.center-no-border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 3px solid violet;
+}
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.column {
+	float:	left;
+	width: 33.33%;
+	padding 10px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
 }

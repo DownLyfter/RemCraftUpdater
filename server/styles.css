@@ -49,7 +49,19 @@ a {
 {
 box-sizing: border-box;
 }
-
+.center-no-border {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 3px solid violet;
+}
 .column {
 	float:	left;
 	width: 33.33%;
